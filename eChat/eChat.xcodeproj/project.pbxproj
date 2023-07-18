@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6696A4202A664985009D3CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A41F2A664985009D3CA3 /* AppDelegate.swift */; };
+		6696A4222A664985009D3CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4212A664985009D3CA3 /* SceneDelegate.swift */; };
+		6696A4242A664985009D3CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4232A664985009D3CA3 /* ViewController.swift */; };
+		6696A4272A664985009D3CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6696A4252A664985009D3CA3 /* Main.storyboard */; };
+		6696A4292A664986009D3CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6696A4282A664986009D3CA3 /* Assets.xcassets */; };
+		6696A42C2A664986009D3CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6696A42A2A664986009D3CA3 /* LaunchScreen.storyboard */; };
+		6696A4372A664986009D3CA3 /* eChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4362A664986009D3CA3 /* eChatTests.swift */; };
+		6696A4412A664987009D3CA3 /* eChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4402A664987009D3CA3 /* eChatUITests.swift */; };
+		6696A4432A664987009D3CA3 /* eChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4422A664987009D3CA3 /* eChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6696A4332A664986009D3CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6696A4142A664985009D3CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6696A41B2A664985009D3CA3;
+			remoteInfo = eChat;
+		};
+		6696A43D2A664987009D3CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6696A4142A664985009D3CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6696A41B2A664985009D3CA3;
+			remoteInfo = eChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6696A41C2A664985009D3CA3 /* eChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696A41F2A664985009D3CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6696A4212A664985009D3CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6696A4232A664985009D3CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6696A4262A664985009D3CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6696A4282A664986009D3CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6696A42B2A664986009D3CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6696A42D2A664986009D3CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6696A4322A664986009D3CA3 /* eChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696A4362A664986009D3CA3 /* eChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChatTests.swift; sourceTree = "<group>"; };
+		6696A43C2A664987009D3CA3 /* eChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696A4402A664987009D3CA3 /* eChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChatUITests.swift; sourceTree = "<group>"; };
+		6696A4422A664987009D3CA3 /* eChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6696A4192A664985009D3CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696A42F2A664986009D3CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696A4392A664987009D3CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6696A4132A664985009D3CA3 = {
+			isa = PBXGroup;
+			children = (
+				6696A41E2A664985009D3CA3 /* eChat */,
+				6696A4352A664986009D3CA3 /* eChatTests */,
+				6696A43F2A664987009D3CA3 /* eChatUITests */,
+				6696A41D2A664985009D3CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6696A41D2A664985009D3CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6696A41C2A664985009D3CA3 /* eChat.app */,
+				6696A4322A664986009D3CA3 /* eChatTests.xctest */,
+				6696A43C2A664987009D3CA3 /* eChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6696A41E2A664985009D3CA3 /* eChat */ = {
+			isa = PBXGroup;
+			children = (
+				6696A41F2A664985009D3CA3 /* AppDelegate.swift */,
+				6696A4212A664985009D3CA3 /* SceneDelegate.swift */,
+				6696A4232A664985009D3CA3 /* ViewController.swift */,
+				6696A4252A664985009D3CA3 /* Main.storyboard */,
+				6696A4282A664986009D3CA3 /* Assets.xcassets */,
+				6696A42A2A664986009D3CA3 /* LaunchScreen.storyboard */,
+				6696A42D2A664986009D3CA3 /* Info.plist */,
+			);
+			path = eChat;
+			sourceTree = "<group>";
+		};
+		6696A4352A664986009D3CA3 /* eChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6696A4362A664986009D3CA3 /* eChatTests.swift */,
+			);
+			path = eChatTests;
+			sourceTree = "<group>";
+		};
+		6696A43F2A664987009D3CA3 /* eChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6696A4402A664987009D3CA3 /* eChatUITests.swift */,
+				6696A4422A664987009D3CA3 /* eChatUITestsLaunchTests.swift */,
+			);
+			path = eChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6696A41B2A664985009D3CA3 /* eChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6696A4462A664987009D3CA3 /* Build configuration list for PBXNativeTarget "eChat" */;
+			buildPhases = (
+				6696A4182A664985009D3CA3 /* Sources */,
+				6696A4192A664985009D3CA3 /* Frameworks */,
+				6696A41A2A664985009D3CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eChat;
+			productName = eChat;
+			productReference = 6696A41C2A664985009D3CA3 /* eChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6696A4312A664986009D3CA3 /* eChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6696A4492A664987009D3CA3 /* Build configuration list for PBXNativeTarget "eChatTests" */;
+			buildPhases = (
+				6696A42E2A664986009D3CA3 /* Sources */,
+				6696A42F2A664986009D3CA3 /* Frameworks */,
+				6696A4302A664986009D3CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6696A4342A664986009D3CA3 /* PBXTargetDependency */,
+			);
+			name = eChatTests;
+			productName = eChatTests;
+			productReference = 6696A4322A664986009D3CA3 /* eChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6696A43B2A664987009D3CA3 /* eChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6696A44C2A664987009D3CA3 /* Build configuration list for PBXNativeTarget "eChatUITests" */;
+			buildPhases = (
+				6696A4382A664987009D3CA3 /* Sources */,
+				6696A4392A664987009D3CA3 /* Frameworks */,
+				6696A43A2A664987009D3CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6696A43E2A664987009D3CA3 /* PBXTargetDependency */,
+			);
+			name = eChatUITests;
+			productName = eChatUITests;
+			productReference = 6696A43C2A664987009D3CA3 /* eChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6696A4142A664985009D3CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6696A41B2A664985009D3CA3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6696A4312A664986009D3CA3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6696A41B2A664985009D3CA3;
+					};
+					6696A43B2A664987009D3CA3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6696A41B2A664985009D3CA3;
+					};
+				};
+			};
+			buildConfigurationList = 6696A4172A664985009D3CA3 /* Build configuration list for PBXProject "eChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6696A4132A664985009D3CA3;
+			productRefGroup = 6696A41D2A664985009D3CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6696A41B2A664985009D3CA3 /* eChat */,
+				6696A4312A664986009D3CA3 /* eChatTests */,
+				6696A43B2A664987009D3CA3 /* eChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6696A41A2A664985009D3CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696A42C2A664986009D3CA3 /* LaunchScreen.storyboard in Resources */,
+				6696A4292A664986009D3CA3 /* Assets.xcassets in Resources */,
+				6696A4272A664985009D3CA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696A4302A664986009D3CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696A43A2A664987009D3CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6696A4182A664985009D3CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696A4242A664985009D3CA3 /* ViewController.swift in Sources */,
+				6696A4202A664985009D3CA3 /* AppDelegate.swift in Sources */,
+				6696A4222A664985009D3CA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696A42E2A664986009D3CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696A4372A664986009D3CA3 /* eChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696A4382A664987009D3CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696A4432A664987009D3CA3 /* eChatUITestsLaunchTests.swift in Sources */,
+				6696A4412A664987009D3CA3 /* eChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6696A4342A664986009D3CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6696A41B2A664985009D3CA3 /* eChat */;
+			targetProxy = 6696A4332A664986009D3CA3 /* PBXContainerItemProxy */;
+		};
+		6696A43E2A664987009D3CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6696A41B2A664985009D3CA3 /* eChat */;
+			targetProxy = 6696A43D2A664987009D3CA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6696A4252A664985009D3CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6696A4262A664985009D3CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6696A42A2A664986009D3CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6696A42B2A664986009D3CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6696A4442A664987009D3CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6696A4452A664987009D3CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6696A4472A664987009D3CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z839S848GQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vankhanhvuong.demo.eChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6696A4482A664987009D3CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z839S848GQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vankhanhvuong.demo.eChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6696A44A2A664987009D3CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z839S848GQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vankhanhvuong.demo.eChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eChat";
+			};
+			name = Debug;
+		};
+		6696A44B2A664987009D3CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z839S848GQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vankhanhvuong.demo.eChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eChat";
+			};
+			name = Release;
+		};
+		6696A44D2A664987009D3CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z839S848GQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vankhanhvuong.demo.eChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eChat;
+			};
+			name = Debug;
+		};
+		6696A44E2A664987009D3CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z839S848GQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vankhanhvuong.demo.eChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6696A4172A664985009D3CA3 /* Build configuration list for PBXProject "eChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696A4442A664987009D3CA3 /* Debug */,
+				6696A4452A664987009D3CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6696A4462A664987009D3CA3 /* Build configuration list for PBXNativeTarget "eChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696A4472A664987009D3CA3 /* Debug */,
+				6696A4482A664987009D3CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6696A4492A664987009D3CA3 /* Build configuration list for PBXNativeTarget "eChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696A44A2A664987009D3CA3 /* Debug */,
+				6696A44B2A664987009D3CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6696A44C2A664987009D3CA3 /* Build configuration list for PBXNativeTarget "eChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696A44D2A664987009D3CA3 /* Debug */,
+				6696A44E2A664987009D3CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6696A4142A664985009D3CA3 /* Project object */;
+}
