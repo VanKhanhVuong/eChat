@@ -12,11 +12,11 @@
 		6631C4302A6A31A40085DCA2 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6631C42E2A6A31A40085DCA2 /* RegisterViewController.xib */; };
 		6696A4202A664985009D3CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A41F2A664985009D3CA3 /* AppDelegate.swift */; };
 		6696A4222A664985009D3CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4212A664985009D3CA3 /* SceneDelegate.swift */; };
-		6696A4292A664986009D3CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6696A4282A664986009D3CA3 /* Assets.xcassets */; };
 		6696A42C2A664986009D3CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6696A42A2A664986009D3CA3 /* LaunchScreen.storyboard */; };
 		6696A4372A664986009D3CA3 /* eChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4362A664986009D3CA3 /* eChatTests.swift */; };
 		6696A4412A664987009D3CA3 /* eChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4402A664987009D3CA3 /* eChatUITests.swift */; };
 		6696A4432A664987009D3CA3 /* eChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696A4422A664987009D3CA3 /* eChatUITestsLaunchTests.swift */; };
+		66D8D58A2A6FF8CF004F69BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D8D5892A6FF8CF004F69BD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		6696A41C2A664985009D3CA3 /* eChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6696A41F2A664985009D3CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6696A4212A664985009D3CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6696A4282A664986009D3CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6696A42B2A664986009D3CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6696A42D2A664986009D3CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6696A4322A664986009D3CA3 /* eChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		6696A43C2A664987009D3CA3 /* eChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6696A4402A664987009D3CA3 /* eChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChatUITests.swift; sourceTree = "<group>"; };
 		6696A4422A664987009D3CA3 /* eChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66D8D5892A6FF8CF004F69BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,15 +94,6 @@
 			children = (
 			);
 			path = HomeScreen;
-			sourceTree = "<group>";
-		};
-		662761962A67950A004C60AB /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				6696A4282A664986009D3CA3 /* Assets.xcassets */,
-			);
-			name = Resource;
-			path = "Réource";
 			sourceTree = "<group>";
 		};
 		662761972A67953D004C60AB /* Data */ = {
@@ -200,12 +191,12 @@
 		6696A41E2A664985009D3CA3 /* eChat */ = {
 			isa = PBXGroup;
 			children = (
+				66D8D5882A6FF8CF004F69BD /* Resource */,
 				6631C4202A6A1CD20085DCA2 /* UIs */,
 				6627619A2A6795AC004C60AB /* Supports */,
 				662761992A679552004C60AB /* Sources */,
 				662761982A679546004C60AB /* Extentions */,
 				662761972A67953D004C60AB /* Data */,
-				662761962A67950A004C60AB /* Resource */,
 			);
 			path = eChat;
 			sourceTree = "<group>";
@@ -225,6 +216,14 @@
 				6696A4422A664987009D3CA3 /* eChatUITestsLaunchTests.swift */,
 			);
 			path = eChatUITests;
+			sourceTree = "<group>";
+		};
+		66D8D5882A6FF8CF004F69BD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				66D8D5892A6FF8CF004F69BD /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,8 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6696A42C2A664986009D3CA3 /* LaunchScreen.storyboard in Resources */,
+				66D8D58A2A6FF8CF004F69BD /* Assets.xcassets in Resources */,
 				6631C4302A6A31A40085DCA2 /* RegisterViewController.xib in Resources */,
-				6696A4292A664986009D3CA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
